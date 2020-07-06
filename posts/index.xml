@@ -2,22 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on My New Hugo Site</title>
-    <link>http://example.org/posts/</link>
+    <link>https://opriz.github.io/posts/</link>
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 06 Jul 2020 16:20:18 +0800</lastBuildDate>
     
-	<atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://opriz.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello</title>
-      <link>http://example.org/posts/hello/</link>
+      <link>https://opriz.github.io/posts/hello/</link>
       <pubDate>Mon, 06 Jul 2020 16:20:18 +0800</pubDate>
       
-      <guid>http://example.org/posts/hello/</guid>
+      <guid>https://opriz.github.io/posts/hello/</guid>
       <description>Hellow world print hello </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://opriz.github.io/posts/linux%E4%B8%8B%E5%AE%9A%E4%BD%8D%E9%97%AE%E9%A2%98%E5%B7%A5%E5%85%B7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://opriz.github.io/posts/linux%E4%B8%8B%E5%AE%9A%E4%BD%8D%E9%97%AE%E9%A2%98%E5%B7%A5%E5%85%B7/</guid>
+      <description>CPU 查看cpu物理信息
+cat /proc/cpuinfo top 查看cpu负载
+Memory 查看内存信息
+cat /proc/meminfo free
+vmstat
+IO iotop
+Disk fdisk
+查看Io性能 iostat
+df
+Network iostat
+netstat
+ss
+tcpdump
+Process stack/heap System call strace
+ptrace
+File system/status lsof
+综合信息 top
+ps
+dstat
+pidstat
+perf</description>
     </item>
     
   </channel>
